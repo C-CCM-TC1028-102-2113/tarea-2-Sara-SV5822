@@ -19,7 +19,7 @@ def main():
             num3=y
         pass
 
-    elif y>=x and y>=x:
+    elif y>=x and y>=z:
         num1=y
 
         if x>=z:
