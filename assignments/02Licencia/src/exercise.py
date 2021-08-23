@@ -1,6 +1,7 @@
 def main():
     
     edad = int(input("Ingresa tu edad: "))
+
     # Escribe el código adecuado para completar el programa
     # Para pedir el dato de la idetificación oficial emplea este mensaje:
     # "¿Tienes identificación oficial? (s/n): "
@@ -14,7 +15,7 @@ def main():
         else:
             print('Respuesta incorrecta')
     
-    elif edad<18:
+    elif edad<18 and edad!=0:
         print('No cumples requisitos')
 
     else:
