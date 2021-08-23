@@ -6,16 +6,16 @@ def main():
 
     max=0
 
-    if num1>num2:
+    if num1>=num2:
         max=num1
 
-    elif num1<num2:
+    elif num1<=num2:
         max=num2
     pass
 
-    if max>num3:
+    if max>=num3:
         max=max
-    elif max<num3:
+    elif max<=num3:
         max=num3
     pass
 
